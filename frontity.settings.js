@@ -3,8 +3,8 @@ const settings = {
   "state": {
     "frontity": {
       "url": "https://test.frontity.org",
-      "title": "Test Frontity Blog",
-      "description": "WordPress installation for Frontity development"
+      "title": "Simon B. Carstensen",
+      "description": ""
     }
   },
   "packages": [
@@ -14,25 +14,17 @@ const settings = {
         "theme": {
           "menu": [
             [
-              "Home",
-              "/"
+              "Working with me",
+              "/working-with-me"
             ],
             [
-              "Nature",
-              "/category/nature/"
+              "My story",
+              "/my-story"
             ],
             [
-              "Travel",
-              "/category/travel/"
+              "Writings",
+              "/writings"
             ],
-            [
-              "Japan",
-              "/tag/japan/"
-            ],
-            [
-              "About Us",
-              "/about-us/"
-            ]
           ],
           "featured": {
             "showOnList": false,
@@ -45,7 +37,9 @@ const settings = {
       "name": "@frontity/wp-source",
       "state": {
         "source": {
-          "url": "https://wp.simonbc.com"
+          "url": "https://wp.simonbc.com",
+          "homepage": "home",
+          "postsPage": "blog"
         }
       }
     },
